@@ -1,0 +1,135 @@
+export const categories = [
+"Tất cả",
+"Nhà trọ",
+"Homestay",
+"Ở ghép"
+]
+export const status_lst = [
+    "waiting",
+    "active",
+    "inactive",
+    "delete",
+]
+export const cost_lst = [
+    {
+        id: 0,
+        name: "Tất cả",
+        price: 0,
+        discont_7days: 0,
+        discont_30days: 0,
+        description: ""
+    },
+    {
+        id: 1,
+        name: "Tin thường",
+        price: 5000,
+        discont_7days: 5,
+        discont_30days: 10,
+        description: ""
+    },
+    {
+        id: 2,
+        name: "Tin VIP 1",
+        price: 10000,
+        discont_7days: 5,
+        discont_30days: 10,
+        description: ""
+    },
+    {
+        id: 3,
+        name: "Tin VIP 2",
+        price: 15000,
+        discont_7days: 5,
+        discont_30days: 10,
+        description: ""
+    },
+    {
+        id: 4,
+        name: "Tin VIP 3",
+        price: 20000,
+        discont_7days: 5,
+        discont_30days: 10,
+        description: ""
+    }
+]
+
+
+export const posts_lst = [
+    {
+        id: 1,
+        category: 1,
+        city: "Hồ Chí Minh",
+        county: "Quận 1",
+        district: "Tân Định",
+        street: "Trần Khắc Chân",
+        full_address: "Đường Trần Khắc Chân, Quận 1, Hồ Chí Minh",
+        price: 3000000,
+        area: "20",
+        customerName: "Thành Tuân",
+        customerPhone: "0123456789",
+        notes: "0123456789",
+        title: "CHO THUÊ PHÒNG CÓ NỘI THẤT GIÁ RẺ GẦN CHỢ TÂN ĐỊNH QUẬN 1",
+        description: "Mình cần cho thuê phòng trong nhà cao tầng. Mỗi lầu 1 phòng, toilet riêng, hành lang, 2 cửa sổ ,máy lạnh, có nước nóng, giup việc dọn vệ sinh hàng tuần , rộng rãi , sạch sẽ, thoang mát.\nGiá : 3.500.000/thang, nước 150.000, điện 4.000/kw, wifi, rác miễn phí, có máy giặc\nGiờ giấc tự do!\nCó bếp nấu ăn Gần rạp CGV, trường học, khu vực ăn uống, mua sắm, giáp Phan xích long, thuận tiện đi các quận trung tâm 3,10,bình thạnh, phú nhuận, gò vấp,gần trường hutec,hồng bàng,kinh tế,kiến trúc,khoa học xã hội...",
+        createAt: "11-09-2023",
+        expireAt: "18-09-2023",
+        status: "inactive",
+        cost: 1,
+    },
+    {
+        id: 2,
+        category: 1,
+        city: "Hồ Chí Minh",
+        county: "Quận 1",
+        district: "Tân Định",
+        street: "Trần Khắc Chân",
+        full_address: "Đường Trần Khắc Chân, Quận 1, Hồ Chí Minh",
+        price: 3000000,
+        area: "20",
+        customerName: "Thành Tuân",
+        customerPhone: "0123456789",
+        title: "CHO THUÊ PHÒNG CÓ NỘI THẤT GIÁ RẺ GẦN CHỢ TÂN ĐỊNH QUẬN 1",
+        description: "Mình cần cho thuê phòng trong nhà cao tầng. Mỗi lầu 1 phòng, toilet riêng, hành lang, 2 cửa sổ ,máy lạnh, có nước nóng, giup việc dọn vệ sinh hàng tuần , rộng rãi , sạch sẽ, thoang mát.\nGiá : 3.500.000/thang, nước 150.000, điện 4.000/kw, wifi, rác miễn phí, có máy giặc\nGiờ giấc tự do!\nCó bếp nấu ăn Gần rạp CGV, trường học, khu vực ăn uống, mua sắm, giáp Phan xích long, thuận tiện đi các quận trung tâm 3,10,bình thạnh, phú nhuận, gò vấp,gần trường hutec,hồng bàng,kinh tế,kiến trúc,khoa học xã hội...",
+        createAt: "11-09-2023",
+        expireAt: "18-09-2023",
+        status: "inactive",
+        cost: 1,
+    },    
+    {
+        id: 3,
+        category: 1,
+        city: "Hồ Chí Minh",
+        county: "Quận 1",
+        district: "Tân Định",
+        street: "Trần Khắc Chân",
+        full_address: "Đường Trần Khắc Chân, Quận 1, Hồ Chí Minh",
+        price: 3000000,
+        area: "20",
+        customerName: "Thành Tuân",
+        customerPhone: "0123456789",
+        title: "CHO THUÊ PHÒNG CÓ NỘI THẤT GIÁ RẺ GẦN CHỢ TÂN ĐỊNH QUẬN 1",
+        description: "Mình cần cho thuê phòng trong nhà cao tầng. Mỗi lầu 1 phòng, toilet riêng, hành lang, 2 cửa sổ ,máy lạnh, có nước nóng, giup việc dọn vệ sinh hàng tuần , rộng rãi , sạch sẽ, thoang mát.\nGiá : 3.500.000/thang, nước 150.000, điện 4.000/kw, wifi, rác miễn phí, có máy giặc\nGiờ giấc tự do!\nCó bếp nấu ăn Gần rạp CGV, trường học, khu vực ăn uống, mua sắm, giáp Phan xích long, thuận tiện đi các quận trung tâm 3,10,bình thạnh, phú nhuận, gò vấp,gần trường hutec,hồng bàng,kinh tế,kiến trúc,khoa học xã hội...",
+        createAt: "11-09-2023",
+        expireAt: "18-09-2023",
+        status: "inactive",
+        cost: 1,
+    },
+    {
+        id: 4,
+        category: 1,
+        city: "Hồ Chí Minh",
+        county: "Quận 1",
+        district: "Tân Định",
+        street: "Trần Khắc Chân",
+        full_address: "Đường Trần Khắc Chân, Quận 1, Hồ Chí Minh",
+        price: 3000000,
+        area: "20",
+        customerName: "Thành Tuân",
+        customerPhone: "0123456789",
+        title: "CHO THUÊ PHÒNG CÓ NỘI THẤT GIÁ RẺ GẦN CHỢ TÂN ĐỊNH QUẬN 1",
+        description: "Mình cần cho thuê phòng trong nhà cao tầng. Mỗi lầu 1 phòng, toilet riêng, hành lang, 2 cửa sổ ,máy lạnh, có nước nóng, giup việc dọn vệ sinh hàng tuần , rộng rãi , sạch sẽ, thoang mát.\nGiá : 3.500.000/thang, nước 150.000, điện 4.000/kw, wifi, rác miễn phí, có máy giặc\nGiờ giấc tự do!\nCó bếp nấu ăn Gần rạp CGV, trường học, khu vực ăn uống, mua sắm, giáp Phan xích long, thuận tiện đi các quận trung tâm 3,10,bình thạnh, phú nhuận, gò vấp,gần trường hutec,hồng bàng,kinh tế,kiến trúc,khoa học xã hội...",
+        createAt: "11-09-2023",
+        expireAt: "18-09-2023",
+        status: "inactive",
+        cost: 1,
+    },
+]
